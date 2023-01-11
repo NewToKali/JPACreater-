@@ -18,7 +18,7 @@ public class BeanConfig {
     DataSource dataSource;
 
     @Bean
-    public String checkDatasource() throws SQLException, IOException {
+    public String createJPA() throws SQLException, IOException {
 
 
         JpaCreator jpaCreator = new JpaCreator(dataSource);
